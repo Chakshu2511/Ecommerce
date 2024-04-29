@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <link rel="stylesheet" href="e-commerce.css">
+     <title>Account</title>
+ </head>
+ 
+ <body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo">
+                    <img src="https://cdn.shopify.com/s/files/1/0811/5663/t/9/assets/logo.png?v=2179187803134353620" alt="" width="190px">
+                </div>
+      
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="e-commerce.html">Home</a></li>
+                        <li><a href="products.html" >Products</a></li>
+                        <li><a href="about.html" >About</a></li>
+                        <li><a href="contact.html" >Contact</a></li>
+                        <li><a href="account.html" >Account</a></li>
+                    </ul>
+                </nav>
+      <a href="">
+           <img src="https://cdn4.iconfinder.com/data/icons/business-finance-ecommerce-1/20/Iconspace_Trolley_Cart_Setting_Option_Business_Finance_Ecommerce-512.png" width="30px" height="30px">
+      </a>     
+      <div class="menu-class" >
+        <i class="fa fa-bars" onclick="menutoggle()"></i>
+     </div>
+          </div>
+              <div class="signup-box">
+              <h2>Sign Up</h2>
+              <form>
+                  <label>First Name</label>
+                  <input type="text" placeholder="Your First Name"><br>
+                  <label>Last Name</label>
+                  <input type="text" placeholder="Your Last Name"><br>
+                  <label>Email</label>
+                  <input type="email" placeholder="Your email"><br>
+                  <label>Password</label>
+                  <input type="password" placeholder="Password"><br>
+                  <label>Confirm Password</label>
+                  <input type="password" placeholder="Confirm password"><br>
+                 <a href="#">
+                     <input type="button" value="Submit">
+                 </a>
+              </form>
+              <p class="para1">By clicking Sign up button, you agree to our<br>
+            <a href="#">Terms and Condition</a> and <a href="#">Private policy</a></p><br>
+            <p class="para1">Already have an account? <a href="login.html">Login here</a></p>
+          </div><br>
+        </div>
+        
+       
+   </div>
+
+
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Help</h3><br>
+                   <ul>
+                       <li>Payments</li>
+                       <li>Shipping</li>
+                       <li>FAQs</li>
+                       <li>Cancellation</li>
+                   </ul>
+               </div>
+               <div class="footer-col-2">
+                   <h3>About</h3><br>
+                   <ul>
+                       <li>Contact Us</li>
+                       <li>About Us</li>
+                       <li>Blog Images</li>
+                       <li>Corporate Information</li>
+                   </ul>
+               </div>
+               <div class="footer-col-3">
+                   <h3>Policy</h3><br>
+                   <ul>
+                       <li>Security</li>
+                       <li>Privacy</li>
+                       <li>Return Policy</li>
+                       <li>Terms of Use</li>
+                   </ul>
+               </div>
+               <div class="footer-col-4">
+                   <h3>Social</h3><br>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>YouTube</li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+               <div class="app-logo">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1KaOgb7R12Wm7FJYBsKgQJ1C2JlISfHH240HzPY7Fst7uQpJWBK5olGGfBaJbszzT18&usqp=CAU">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToq-v2r68xi28JqQLgWgenQ6TBAEHKhs0q-JhejMV6tnTvwvlsejuH4pL-d2HeO08GUIc&usqp=CAU">
+               </div><br>
+               <hr>
+               <p>Copyright 2020 - Easy Tutorials</p>
+   </div>
+</body>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+     MenuItems.style.maxHeight="0px";
+
+     function menutoggle(){
+         if(MenuItems.style.maxHeight == "0px")
+         {
+             MenuItems.style.maxHeight = "200px";
+         }
+         else{
+             MenuItems.style.maxHeight = "0px";
+         }
+     }
+</script>
+</html>
